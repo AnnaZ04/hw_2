@@ -1,0 +1,92 @@
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(243, 207, 212);
+width: 1400px
+}
+ 
+.name_page{
+  text-align: center;
+}
+
+.img_mainpage{
+  display: block;
+ margin: 0 auto;
+}
+
+.menu{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  margin: 50px;
+  background-color:blanchedalmond
+}
+
+.menu a:hover {
+  color: #ad2472;
+}
+
+.gallery_container{
+ display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery_container img {
+  transition: 0.3s;
+}
+.gallery_container img:hover {
+  transform: scale(1.2);
+}
+
+.figcaption1{
+  text-align: center;
+  margin-right: 100px;
+}
+
+.figcaption2{
+  text-align: center;
+  margin-right: 100px;
+}
+
+.figcaption3{
+  text-align: center;
+  margin-right: 100px;
+}
+
+.figcaption4{
+  text-align: center;
+  margin-right: 100px;
+}
+
+.figcaption5{
+  text-align: center;
+  margin-right: 100px;
+}
+
+.figcaption6{
+  text-align: center;
+  margin-right: 100px;
+}
+
+.form_container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.button_message{
+    width: 70px;
+  margin: 0 auto;
+}
+
+.anchors{
+text-align: center;
+}
